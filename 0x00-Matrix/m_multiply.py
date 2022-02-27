@@ -3,7 +3,7 @@ M_multiply module
 """
 
 
-def mul(m1, m1):
+def mul(m1, m2):
     """
     multiple 2 matrices function
     - m1
