@@ -10,7 +10,7 @@ def mul(m1, m2):
     - m2
     Return: m1 x m2
     """
-    res = [[0 for x in range(len(m2))] for y in range(len(m1))]
+    res = [[0 for x in range(len(m2[0]))] for y in range(len(m1))]
   
     for i in range(len(m1)):
         for j in range(len(m2[0])):
